@@ -1,0 +1,173 @@
+body{
+    
+        overflow-x: hidden;
+      
+}
+.gradient{
+       
+    background:linear-gradient(to right, rgba(255, 0, 0, 0.638), rgb(136, 9, 148)) ;
+    background-size: 300% 300%;
+    animation: color 7s infinite ease-in-out;
+    animation-play-state: running;
+   
+}
+@keyframes color {
+0%{
+   background-position: 100% 50%;
+}
+50%{
+    background-position:50% 0%;
+}
+100%{
+    background-position: 0% 100%
+}
+}
+.bi-google-play{
+   
+  
+}
+.feature{
+color: rgb(226, 42, 42);
+height: 50px;
+width: 50px;
+}
+.mainfeaturecontainer{
+display: grid;
+grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+justify-content: space-evenly;
+}
+.carousel-inner{
+    height: 250px;
+   
+}
+rect{
+    height: 400px;
+}
+.carousel{
+    display: flex;
+    align-items: center;
+}
+@media(max-width:800px){
+     
+ .font-style{
+        font-size: 40px;   
+    }
+    .font-style-p{
+        font-size: 30px;
+        font-weight: 350;
+    }
+    .mainfeaturecontainer{
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    }
+    
+    .review{
+        font-weight:800;
+        font-size: 20px;
+    }
+    rect{
+        height: 600px;
+    }
+    .carousel-inner{
+        height: 400px;
+       
+    }
+    .name{
+        font-size:17px ;
+        font-weight: 600;
+    }
+    .nav-link{
+        font-size: 20px;
+    }
+    .navbar-collapse ul li{
+        text-align: center;
+        background-color: rgba(0, 0, 0, 0.405);
+        color: white;
+      }
+      .column{
+        
+        border-radius: 3%;
+       margin-left: 16vh;
+        width: 60vw;
+    }
+     .button-block-para{
+        padding-left:10vw;
+      
+     }
+     .button-block-buttons{
+        padding-left:18vw;
+       
+     }
+    }
+    
+@media(min-width:800px)
+{ .font-style{
+    font-size: 90px;   
+}
+.font-style-p{
+    font-size: 40px;
+    font-weight: 400;
+}
+    .review{
+        font-weight:800;
+        font-size: 30px;
+    }
+    rect{
+        height: 600px;
+    }
+    .carousel-inner{
+        height: 300px;
+       
+    }
+    .name{
+        font-size:20px ;
+        font-weight: 600;
+    }
+    .nav-link{
+        font-size: 25px;
+       
+    }
+    .button-block-para{
+        padding-left:5vw;
+     }
+     .button-block-buttons{
+        padding-left:20vw;
+        
+     }
+     .column{
+        
+        border-radius: 3%;
+       margin-left: 50px;
+        width: 30vw;
+    }
+}
+
+.partner{
+    background-color: rgb(251, 251, 251);
+}
+
+.button-block-container{
+    background-color: rgba(255, 0, 0, 0.682);
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    height: 250px;
+    align-items: center;
+    
+}
+.button-block-para{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+
+}
+.custom-button{
+    background-color: rgba(0, 0, 0, 0.592);
+}
+.footer-main{
+    display: flex;
+    height: 150px;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
