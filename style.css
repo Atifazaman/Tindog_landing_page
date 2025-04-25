@@ -99,13 +99,12 @@ rect{
       }
       
      .button-block-para{
-        padding-left:10vw;
-      
+       text-align: center;
      }
-     .button-block-buttons{
-        padding-left:18vw;
-       
-     }
+    .button-block-container .button-block-buttons{
+            display: flex;
+            justify-content: center;
+         }
      .nav_container{
         height: 10vh;
      }
@@ -137,6 +136,7 @@ rect{
         .nav_container{
             height: 10vh;
         }
+             
     }
 @media(min-width:800px)
 { .font-style{
@@ -166,12 +166,9 @@ rect{
        
     }
     .button-block-para{
-        padding-left:5vw;
+        text-align: center;
      }
-     .button-block-buttons{
-        padding-left:20vw;
-        
-     }
+     
      
     .nav_container{
         height: 18vh;
@@ -189,6 +186,10 @@ rect{
            width: 270px;
            
         } 
+  .button-block-container .button-block-buttons{
+            display: flex;
+            justify-content: center;
+         }
 }
 
 .partner{
