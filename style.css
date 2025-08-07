@@ -7,6 +7,9 @@ html, body{
         
        
 }
+*{
+caret-color: transparent;
+}
 .gradient{
        
     background:linear-gradient(to right, rgba(255, 0, 0, 0.638), rgb(136, 9, 148)) ;
@@ -222,3 +225,4 @@ rect{
     align-items: center;
     gap: 15px;
 }
+
